@@ -1,3 +1,3 @@
 #Makefile
 run-dist:
-	./build/install/app/bin/app
+	@./app/build/install/app/bin/app
