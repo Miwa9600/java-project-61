@@ -24,10 +24,6 @@ application {
     mainClass = 'hexlet.code.App'
 }
 
-compileJava {
-    options.release = 11 as Property<Integer>
-}
-
 run {
     standardInput = System.in
 }
